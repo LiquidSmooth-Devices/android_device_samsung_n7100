@@ -60,3 +60,6 @@ TARGET_EXTERNAL_APPS = sdcard1
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/n7100/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
+
+# Camera wrapper
+TARGET_PROVIDES_CAMERA_HAL := true
