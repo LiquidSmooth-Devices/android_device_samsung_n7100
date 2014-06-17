@@ -1,9 +1,8 @@
 # Release name
 PRODUCT_RELEASE_NAME := n7100
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+PRODUCT_COPY_FILES += \
+    device/samsung/n7100/overlay/prebuilt/720.zip:system/media/bootanimation.zip
 
 # Inherit some common Liquid stuff.
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
